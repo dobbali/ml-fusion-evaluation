@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+url = "https://acm.slicetest.com/artifactory/api/pypi/slice-pypi-local/simple"
+verify_ssl = true
+name = "local"
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+pytest = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.7"
+
+[packages]
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+datetime = "*"
+xgboost = "*"
+aws-secretsmanager-caching = "*"
+snowflake-sqlalchemy = "*"
